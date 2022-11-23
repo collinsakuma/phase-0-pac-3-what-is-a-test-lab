@@ -1,0 +1,73 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-11-23T21:53:35.074Z",
+    "end": "2022-11-23T21:53:35.216Z",
+    "duration": 142
+  },
+  "tests": [
+    {
+      "title": "returns \"Susan\"",
+      "fullTitle": "what-is-a-test Name returns \"Susan\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 'Joe' to equal 'Susan'\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/index-test.js:6:20)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "Expected 'Joe' to equal 'Susan'",
+        "actual": "Joe",
+        "expected": "Susan",
+        "showDiff": true
+      }
+    },
+    {
+      "title": "is less than 40",
+      "fullTitle": "what-is-a-test Height is less than 40",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "gives the name and height",
+      "fullTitle": "what-is-a-test Message gives the name and height",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns \"Susan\"",
+      "fullTitle": "what-is-a-test Name returns \"Susan\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 'Joe' to equal 'Susan'\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/index-test.js:6:20)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "Expected 'Joe' to equal 'Susan'",
+        "actual": "Joe",
+        "expected": "Susan",
+        "showDiff": true
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is less than 40",
+      "fullTitle": "what-is-a-test Height is less than 40",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "gives the name and height",
+      "fullTitle": "what-is-a-test Message gives the name and height",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
